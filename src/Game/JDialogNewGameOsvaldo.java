@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package interfazGrafica;
+package Game;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
-import java.awt.PopupMenu;
 import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
@@ -19,14 +18,14 @@ import javax.swing.JTextField;
  *
  * @author osvaldo
  */
-public class JDialogNewGame extends JDialog {
+public class JDialogNewGameOsvaldo extends JDialog {
 
     String titulo;
     String deserrollador;
     String Plataforma;
     String Clasificacion;
 
-    public JDialogNewGame() {
+    public JDialogNewGameOsvaldo() {
         this.setTitle("Añadir juego");
         createComponent();
         this.setMinimumSize(new Dimension(290, 220));
